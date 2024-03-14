@@ -1,0 +1,23 @@
+kiwi
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+apple * kiwi
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple
+
+const getUniqueValues = array => [...new Set(array)];
+banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+31 * 88,27,5,81,85,47,53,41,29,55,33,23,9,82,39,54,20
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const multiply = (a, b) => a * b;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const variableName = getRandomNumber();
