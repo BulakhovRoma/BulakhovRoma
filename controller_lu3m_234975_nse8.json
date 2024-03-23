@@ -1,0 +1,47 @@
+36,27,10,58,70,67,73,85,75,0,28,26,97,58,15,49,37,72,64,90,54,43,13,38,24,7,33,35,25,20,60,3,87,1,30,11 + 81,92,5,90,17,77,38,11,24,21,11,95,10,52,86,45,66,12,8,65,93,67,55,81,99,25,98,83,46,90,53,68,82,34,35,3,41,66,42,16,15,83,14,67,51,68,10,25,57,7,10,74,72,34,4,24,16,6,43,3,14,28,30,11,60,24,34,44,89,77,99,23,61,42,30,90,38,41,92,66,88,73,18,21,53
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+9,14,56,26,17,5,85,12,27,55,33,29,27,18,23,87,42,67,6,59,54,60,46,87,28,75,48,59,61,8,58,71,68,19,34,76,76,72,94,29,11,37,46,58,63,12,12,15,73,80,8,89,10,57,22,56,63,71,65,53,52,21,57,35,4,92,87,21,65,41,10,20,41,19,43,55,42,71,55,4,36,97,62,70,83,55,57,88,63,30,5,43,89,78,95,26,60,97,53 + 25,55,86,66,20,27,64,72,96,80,27,69,5,4,46,43,72,2,40,72,85,37,48,3,10,66,15,16,90,21,34,52,9,30,19,19,37,2,37,84,21,60,58,13,74,67,76,16,10,72,59,45,16,55,6,92,96,43,58,7,5,80,90,51,90,67,84,42,99,33,58,70,86,63,7,83,60,18,5,79,25,14,70,10,44,56,70,89,69,2,23,92,76,1,85,84,86,16,81
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+// This is a comment
+// This is a comment
+false + banana
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomElement = array => array[getRandomIndex(array)];
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const getRandomElement = array => array[getRandomIndex(array)];
+52 + true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi / false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+apple
+
+
+const formatDate = date => new Date(date).toLocaleDateString();
+orange
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+95 + true
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange + 67
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+true / banana
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi / false
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const reverseString = str => str.split("").reverse().join("");
+
